@@ -23,10 +23,11 @@ int main()
     int var=4/9;
     printf("\n%d",var);
 
-    float var1=4/9;
+    float var1=4/9;    // won't give correct result because both 4 and 9 are integers
     printf("\n%f",var1);
 
     float var2=4.0/9.0;
     printf("\n%f",var2);
+
 
 }
